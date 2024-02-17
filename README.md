@@ -1,39 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Figma Clone with Live Blocks
 
-## Getting Started
+Overview
+This project is a Next.js-based Figma clone that leverages Live Blocks for real-time collaboration, Fabric.js for interactive canvas rendering, Tailwind CSS for styling, and Radix UI for UI primitives. With this combination of powerful technologies, you can create a collaborative design tool with a seamless user experience.
 
-Node version -> 20.11.0
-2:18:00
+Features
+Real-time Collaboration: Utilize Live Blocks to enable collaborative design sessions, allowing multiple users to work together on the same canvas in real-time.
 
-First, run the development server:
+Interactive Canvas: Leverage the capabilities of Fabric.js to create an interactive and responsive canvas where users can add, edit, and manipulate design elements with ease.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Styling with Tailwind CSS: Enjoy the flexibility and convenience of Tailwind CSS for styling your application, making it easy to create visually appealing and responsive designs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+UI Primitives with Radix UI: Utilize Radix UI for building high-quality, customizable UI components that enhance the overall look and feel of your Figma clone.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Prerequisites
+Make sure you have the following installed before running the project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Node.js and npm
+Figma API key (for Live Blocks)
+(Add any other specific dependencies here)
+Project Structure
+components/: Contains React components, including UI elements and canvas components.
+pages/: Next.js pages for routing and views.
+styles/: Stylesheets using Tailwind CSS.
+public/: Static assets.
+Feel free to customize the project structure to suit your needs.
 
-## Learn More
+Contributing
+If you would like to contribute to the project, please follow our Contribution Guidelines.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
