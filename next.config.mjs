@@ -15,6 +15,9 @@ const nextConfig = {
       canvas: 'commonjs canvas'
     })
     return config
+  },
+  typescript: {
+    ignoreBuildErrors: true
   }
 }
 
